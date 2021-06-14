@@ -1,0 +1,196 @@
+*{
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  font-family: FreightSansProBook-Regular;
+  width: 100%;
+  height: 100%;
+}
+
+/*     Header    */
+.nav-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 23px 90px;
+  position: relative;
+  width: 1280px;
+  height: 119.2px;
+}
+
+.wrapper {
+  width: 1280px;
+  margin: auto;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-left {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-right: 48px;
+  width: 434px;
+  height: 15.6px;
+}
+
+.nav-left li, .nav-right li {
+  list-style: none;
+}
+
+.nav-left li a, .nav-right li a {
+  color: #3C271D;
+  font-family: FreightSansProMedium-Regular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 120%;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo {
+  height: 73.2px;
+  width: 136px;
+}
+
+.nav-right {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 62px;
+  width: 420px;
+  height: 15.6px;
+}
+
+/*         FOOTER         */
+/*    Above Footer        */
+
+.above-footer {
+  text-align: center;
+  padding: 80px 0;
+  height: 397px;
+  width: 1280px;
+  margin-left: 90px;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  background: #FFFCF9;
+  
+}
+
+.above-footer h3 {
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: #161614;
+  font-family: FreightBigProMedium-Regular;
+  font-size: 14px;
+  padding-bottom: 50px;
+}
+
+.above-footer .images {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  align-content: space-between;
+  margin: 0 90px; 
+   
+}
+
+/*    Footer + Navigation    */
+.middle-footer {
+  background: #F8F4F0;
+  top: 49.26%;
+  bottom: 11.66%;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 155px;
+  margin-left: 90px;
+  height: 315px;
+  width: 1280px;
+  margin: auto;
+}
+
+.middle-footer .line {
+  border: 1px solid #3C271D;
+  margin-top: 77px;
+  height: 172px;
+}
+
+.column1 {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-top: 76px;
+  padding-bottom: 88px;
+}
+
+.column1 #logo {
+  padding-bottom: 14px;
+}
+
+.column1 #p {
+  padding-bottom: 35px;
+}
+
+.column1 #path {
+  height: 10.94px;
+  width: 10.54px;
+}
+
+.column2, .column3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  justify-content: center;
+}
+
+.column2 li, .column3 li {
+  list-style: none;
+  margin-bottom: 25px;
+}
+
+.column2 li a, .column3 li a {
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: #161614;
+  font-family: FreightSansProMedium-Regular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 120%;
+  text-decoration: none;
+}
+
+
+/*   Footer     */
+.footer {
+  text-align: center;
+  height: 94px;
+  padding-top: 41px;
+  background: #FFFCF9;
+  
+}
+
+.footer p {
+  font-family: FreightSansProMedium-Regular;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 11px;
+  line-height: 120%;
+  color: #3C271D;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+}
